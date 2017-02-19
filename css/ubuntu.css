@@ -1,0 +1,234 @@
+html, 
+body,
+.background {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	color: #454442;
+	font-family: "Ubuntu", sans-serif;
+}
+.background {
+	/* Generated middle color */
+	background-color: #6f2162;
+	/* background-image: url(../img/ubuntu-background.jpg); */
+
+	/* SVG background-image made by https://github.com/killfactory */
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%20standalone%3D%22no%22%3F%3E%0A%3C!--%20Created%20with%20Inkscape%20(http%3A%2F%2Fwww.inkscape.org%2F)%20--%3E%0A%0A%3Csvg%0A%20%20%20xmlns%3Adc%3D%22http%3A%2F%2Fpurl.org%2Fdc%2Felements%2F1.1%2F%22%0A%20%20%20xmlns%3Acc%3D%22http%3A%2F%2Fcreativecommons.org%2Fns%23%22%0A%20%20%20xmlns%3Ardf%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%22%0A%20%20%20xmlns%3Asvg%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%0A%20%20%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%0A%20%20%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%0A%20%20%20xmlns%3Asodipodi%3D%22http%3A%2F%2Fsodipodi.sourceforge.net%2FDTD%2Fsodipodi-0.dtd%22%0A%20%20%20xmlns%3Ainkscape%3D%22http%3A%2F%2Fwww.inkscape.org%2Fnamespaces%2Finkscape%22%0A%20%20%20width%3D%224096%22%0A%20%20%20height%3D%222304%22%0A%20%20%20viewBox%3D%220%200%204095.9999%202304%22%0A%20%20%20version%3D%221.1%22%0A%20%20%20id%3D%22svg8%22%0A%20%20%20inkscape%3Aversion%3D%220.92.1%20r15371%22%0A%20%20%20sodipodi%3Adocname%3D%22drawing_no_bg.svg%22%3E%0A%20%20%3Cdefs%0A%20%20%20%20%20id%3D%22defs2%22%3E%0A%20%20%20%20%3ClinearGradient%0A%20%20%20%20%20%20%20inkscape%3Acollect%3D%22always%22%0A%20%20%20%20%20%20%20id%3D%22linearGradient4622%22%3E%0A%20%20%20%20%20%20%3Cstop%0A%20%20%20%20%20%20%20%20%20style%3D%22stop-color%3A%23000000%3Bstop-opacity%3A0.03921569%22%0A%20%20%20%20%20%20%20%20%20offset%3D%220%22%0A%20%20%20%20%20%20%20%20%20id%3D%22stop4618%22%20%2F%3E%0A%20%20%20%20%20%20%3Cstop%0A%20%20%20%20%20%20%20%20%20id%3D%22stop4626%22%0A%20%20%20%20%20%20%20%20%20offset%3D%220.15614443%22%0A%20%20%20%20%20%20%20%20%20style%3D%22stop-color%3A%23000000%3Bstop-opacity%3A0.02745098%22%20%2F%3E%0A%20%20%20%20%20%20%3Cstop%0A%20%20%20%20%20%20%20%20%20style%3D%22stop-color%3A%23000000%3Bstop-opacity%3A0.02745098%22%0A%20%20%20%20%20%20%20%20%20offset%3D%220.82915229%22%0A%20%20%20%20%20%20%20%20%20id%3D%22stop4628%22%20%2F%3E%0A%20%20%20%20%20%20%3Cstop%0A%20%20%20%20%20%20%20%20%20style%3D%22stop-color%3A%23000000%3Bstop-opacity%3A0.03921569%22%0A%20%20%20%20%20%20%20%20%20offset%3D%221%22%0A%20%20%20%20%20%20%20%20%20id%3D%22stop4620%22%20%2F%3E%0A%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%3ClinearGradient%0A%20%20%20%20%20%20%20inkscape%3Acollect%3D%22always%22%0A%20%20%20%20%20%20%20id%3D%22linearGradient4571%22%3E%0A%20%20%20%20%20%20%3Cstop%0A%20%20%20%20%20%20%20%20%20style%3D%22stop-color%3A%23ffffff%3Bstop-opacity%3A0.09547739%22%0A%20%20%20%20%20%20%20%20%20offset%3D%220%22%0A%20%20%20%20%20%20%20%20%20id%3D%22stop4567%22%20%2F%3E%0A%20%20%20%20%20%20%3Cstop%0A%20%20%20%20%20%20%20%20%20style%3D%22stop-color%3A%23ffffff%3Bstop-opacity%3A0.06532663%22%0A%20%20%20%20%20%20%20%20%20offset%3D%221%22%0A%20%20%20%20%20%20%20%20%20id%3D%22stop4569%22%20%2F%3E%0A%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%3ClinearGradient%0A%20%20%20%20%20%20%20inkscape%3Acollect%3D%22always%22%0A%20%20%20%20%20%20%20id%3D%22linearGradient4555%22%3E%0A%20%20%20%20%20%20%3Cstop%0A%20%20%20%20%20%20%20%20%20style%3D%22stop-color%3A%23c93f14%3Bstop-opacity%3A1%22%0A%20%20%20%20%20%20%20%20%20offset%3D%220%22%0A%20%20%20%20%20%20%20%20%20id%3D%22stop4551%22%20%2F%3E%0A%20%20%20%20%20%20%3Cstop%0A%20%20%20%20%20%20%20%20%20id%3D%22stop4633%22%0A%20%20%20%20%20%20%20%20%20offset%3D%220.22984184%22%0A%20%20%20%20%20%20%20%20%20style%3D%22stop-color%3A%23b1362b%3Bstop-opacity%3A1%22%20%2F%3E%0A%20%20%20%20%20%20%3Cstop%0A%20%20%20%20%20%20%20%20%20id%3D%22stop4562%22%0A%20%20%20%20%20%20%20%20%20offset%3D%220.72300583%22%0A%20%20%20%20%20%20%20%20%20style%3D%22stop-color%3A%23702564%3Bstop-opacity%3A1%22%20%2F%3E%0A%20%20%20%20%20%20%3Cstop%0A%20%20%20%20%20%20%20%20%20style%3D%22stop-color%3A%236d2263%3Bstop-opacity%3A1%22%0A%20%20%20%20%20%20%20%20%20offset%3D%221%22%0A%20%20%20%20%20%20%20%20%20id%3D%22stop4553%22%20%2F%3E%0A%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%3CradialGradient%0A%20%20%20%20%20%20%20inkscape%3Acollect%3D%22always%22%0A%20%20%20%20%20%20%20xlink%3Ahref%3D%22%23linearGradient4555%22%0A%20%20%20%20%20%20%20id%3D%22radialGradient4557%22%0A%20%20%20%20%20%20%20cx%3D%22146.12352%22%0A%20%20%20%20%20%20%20cy%3D%227521.8379%22%0A%20%20%20%20%20%20%20fx%3D%22146.12352%22%0A%20%20%20%20%20%20%20fy%3D%227521.8379%22%0A%20%20%20%20%20%20%20r%3D%222048%22%0A%20%20%20%20%20%20%20gradientTransform%3D%22matrix(1.7752632,-0.90568224,0.86366054,1.6928949,-10629.489,-17287.274)%22%0A%20%20%20%20%20%20%20gradientUnits%3D%22userSpaceOnUse%22%20%2F%3E%0A%20%20%20%20%3ClinearGradient%0A%20%20%20%20%20%20%20inkscape%3Acollect%3D%22always%22%0A%20%20%20%20%20%20%20xlink%3Ahref%3D%22%23linearGradient4571%22%0A%20%20%20%20%20%20%20id%3D%22linearGradient4573%22%0A%20%20%20%20%20%20%20x1%3D%223466.8435%22%0A%20%20%20%20%20%20%20y1%3D%222058.533%22%0A%20%20%20%20%20%20%20x2%3D%224096%22%0A%20%20%20%20%20%20%20y2%3D%222304.0002%22%0A%20%20%20%20%20%20%20gradientUnits%3D%22userSpaceOnUse%22%0A%20%20%20%20%20%20%20gradientTransform%3D%22matrix(1.1499647,0,0,1.0289555,-614.25529,-66.713565)%22%20%2F%3E%0A%20%20%20%20%3ClinearGradient%0A%20%20%20%20%20%20%20inkscape%3Acollect%3D%22always%22%0A%20%20%20%20%20%20%20xlink%3Ahref%3D%22%23linearGradient4622%22%0A%20%20%20%20%20%20%20id%3D%22linearGradient4624%22%0A%20%20%20%20%20%20%20x1%3D%221842.5183%22%0A%20%20%20%20%20%20%20y1%3D%22762.08112%22%0A%20%20%20%20%20%20%20x2%3D%223481.8271%22%0A%20%20%20%20%20%20%20y2%3D%221780.3149%22%0A%20%20%20%20%20%20%20gradientUnits%3D%22userSpaceOnUse%22%20%2F%3E%0A%20%20%3C%2Fdefs%3E%0A%20%20%3Csodipodi%3Anamedview%0A%20%20%20%20%20id%3D%22base%22%0A%20%20%20%20%20pagecolor%3D%22%23ffffff%22%0A%20%20%20%20%20bordercolor%3D%22%23666666%22%0A%20%20%20%20%20borderopacity%3D%221.0%22%0A%20%20%20%20%20inkscape%3Apageopacity%3D%220.0%22%0A%20%20%20%20%20inkscape%3Apageshadow%3D%222%22%0A%20%20%20%20%20inkscape%3Azoom%3D%220.49497475%22%0A%20%20%20%20%20inkscape%3Acx%3D%222041.9284%22%0A%20%20%20%20%20inkscape%3Acy%3D%221142.3724%22%0A%20%20%20%20%20inkscape%3Adocument-units%3D%22px%22%0A%20%20%20%20%20inkscape%3Acurrent-layer%3D%22layer8%22%0A%20%20%20%20%20showgrid%3D%22false%22%0A%20%20%20%20%20units%3D%22px%22%0A%20%20%20%20%20inkscape%3Asnap-page%3D%22true%22%0A%20%20%20%20%20inkscape%3Awindow-width%3D%222560%22%0A%20%20%20%20%20inkscape%3Awindow-height%3D%221377%22%0A%20%20%20%20%20inkscape%3Awindow-x%3D%221592%22%0A%20%20%20%20%20inkscape%3Awindow-y%3D%22104%22%0A%20%20%20%20%20inkscape%3Awindow-maximized%3D%221%22%20%2F%3E%0A%20%20%3Cmetadata%0A%20%20%20%20%20id%3D%22metadata5%22%3E%0A%20%20%20%20%3Crdf%3ARDF%3E%0A%20%20%20%20%20%20%3Ccc%3AWork%0A%20%20%20%20%20%20%20%20%20rdf%3Aabout%3D%22%22%3E%0A%20%20%20%20%20%20%20%20%3Cdc%3Aformat%3Eimage%2Fsvg+xml%3C%2Fdc%3Aformat%3E%0A%20%20%20%20%20%20%20%20%3Cdc%3Atype%0A%20%20%20%20%20%20%20%20%20%20%20rdf%3Aresource%3D%22http%3A%2F%2Fpurl.org%2Fdc%2Fdcmitype%2FStillImage%22%20%2F%3E%0A%20%20%20%20%20%20%20%20%3Cdc%3Atitle%3E%3C%2Fdc%3Atitle%3E%0A%20%20%20%20%20%20%3C%2Fcc%3AWork%3E%0A%20%20%20%20%3C%2Frdf%3ARDF%3E%0A%20%20%3C%2Fmetadata%3E%0A%20%20%3Cg%0A%20%20%20%20%20inkscape%3Alabel%3D%22Layer%201%22%0A%20%20%20%20%20inkscape%3Agroupmode%3D%22layer%22%0A%20%20%20%20%20id%3D%22layer1%22%0A%20%20%20%20%20transform%3D%22translate(0,-4397.0311)%22%0A%20%20%20%20%20style%3D%22display%3Ainline%3Bopacity%3A1%22%3E%0A%20%20%20%20%3Cg%0A%20%20%20%20%20%20%20id%3D%22g4560%22%3E%0A%20%20%20%20%20%20%3Crect%0A%20%20%20%20%20%20%20%20%20y%3D%22-6701.0312%22%0A%20%20%20%20%20%20%20%20%20x%3D%22-4096%22%0A%20%20%20%20%20%20%20%20%20height%3D%222304%22%0A%20%20%20%20%20%20%20%20%20width%3D%224096%22%0A%20%20%20%20%20%20%20%20%20id%3D%22rect4541%22%0A%20%20%20%20%20%20%20%20%20style%3D%22fill%3Aurl(%23radialGradient4557)%3Bfill-opacity%3A1%3Bstroke%3Anone%3Bstroke-width%3A1.15946114%22%0A%20%20%20%20%20%20%20%20%20transform%3D%22scale(-1)%22%20%2F%3E%0A%20%20%20%20%3C%2Fg%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%0A%20%20%20%20%20inkscape%3Agroupmode%3D%22layer%22%0A%20%20%20%20%20id%3D%22layer2%22%0A%20%20%20%20%20inkscape%3Alabel%3D%22Layer%202%22%0A%20%20%20%20%20style%3D%22display%3Ainline%3Bopacity%3A0.43200001%22%3E%0A%20%20%20%20%3Cpath%0A%20%20%20%20%20%20%20style%3D%22fill%3Aurl(%23linearGradient4573)%3Bfill-opacity%3A1%3Bstroke%3Anone%3Bstroke-width%3A1.08777869px%3Bstroke-linecap%3Abutt%3Bstroke-linejoin%3Amiter%3Bstroke-opacity%3A1%22%0A%20%20%20%20%20%20%20d%3D%22M%203274.9146,2304%203786.3608,1032.9845%204096,326.6264%20v%201977.3737%20z%22%0A%20%20%20%20%20%20%20id%3D%22path4565%22%0A%20%20%20%20%20%20%20inkscape%3Aconnector-curvature%3D%220%22%0A%20%20%20%20%20%20%20sodipodi%3Anodetypes%3D%22ccccc%22%20%2F%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%0A%20%20%20%20%20inkscape%3Agroupmode%3D%22layer%22%0A%20%20%20%20%20id%3D%22layer4%22%0A%20%20%20%20%20inkscape%3Alabel%3D%22Layer%204%22%0A%20%20%20%20%20style%3D%22display%3Ainline%22%3E%0A%20%20%20%20%3Cpath%0A%20%20%20%20%20%20%20style%3D%22fill%3A%23ffffff%3Bfill-opacity%3A0.04522615%3Bstroke%3Anone%3Bstroke-width%3A1px%3Bstroke-linecap%3Abutt%3Bstroke-linejoin%3Amiter%3Bstroke-opacity%3A1%22%0A%20%20%20%20%20%20%20d%3D%22M%203320,0%203785.7143,1036.8571%204096,942.57143%20V%200%20h%20-777.4286%20z%22%0A%20%20%20%20%20%20%20id%3D%22path4599%22%0A%20%20%20%20%20%20%20inkscape%3Aconnector-curvature%3D%220%22%20%2F%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%0A%20%20%20%20%20inkscape%3Agroupmode%3D%22layer%22%0A%20%20%20%20%20id%3D%22layer5%22%0A%20%20%20%20%20inkscape%3Alabel%3D%22Layer%205%22%0A%20%20%20%20%20style%3D%22display%3Ainline%22%3E%0A%20%20%20%20%3Cpath%0A%20%20%20%20%20%20%20style%3D%22fill%3Aurl(%23linearGradient4624)%3Bfill-opacity%3A1%3Bstroke%3Anone%3Bstroke-width%3A1px%3Bstroke-linecap%3Abutt%3Bstroke-linejoin%3Amiter%3Bstroke-opacity%3A1%22%0A%20%20%20%20%20%20%20d%3D%22M%20309.10668,2304%202606.1936,0%20H%204096%20V%20326.6264%20L%203785.7143,1036.8571%203274.9146,2304%20Z%22%0A%20%20%20%20%20%20%20id%3D%22path4610%22%0A%20%20%20%20%20%20%20inkscape%3Aconnector-curvature%3D%220%22%0A%20%20%20%20%20%20%20sodipodi%3Anodetypes%3D%22ccccccc%22%20%2F%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%0A%20%20%20%20%20inkscape%3Agroupmode%3D%22layer%22%0A%20%20%20%20%20id%3D%22layer6%22%0A%20%20%20%20%20inkscape%3Alabel%3D%22Layer%206%22%0A%20%20%20%20%20style%3D%22display%3Ainline%22%3E%0A%20%20%20%20%3Cpath%0A%20%20%20%20%20%20%20style%3D%22fill%3A%23000000%3Bfill-opacity%3A0.01568627%3Bstroke%3Anone%3Bstroke-width%3A1px%3Bstroke-linecap%3Abutt%3Bstroke-linejoin%3Amiter%3Bstroke-opacity%3A1%22%0A%20%20%20%20%20%20%20d%3D%22M%20107.07617,0%20H%200%20V%202304%20H%202171.828%20L%20872.7718,1732.2537%20Z%22%0A%20%20%20%20%20%20%20id%3D%22path4613%22%0A%20%20%20%20%20%20%20inkscape%3Aconnector-curvature%3D%220%22%20%2F%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%0A%20%20%20%20%20inkscape%3Agroupmode%3D%22layer%22%0A%20%20%20%20%20id%3D%22layer7%22%0A%20%20%20%20%20inkscape%3Alabel%3D%22Layer%207%22%0A%20%20%20%20%20style%3D%22display%3Ainline%22%3E%0A%20%20%20%20%3Cpath%0A%20%20%20%20%20%20%20style%3D%22fill%3A%23ffffff%3Bfill-opacity%3A0.01005028%3Bstroke%3Anone%3Bstroke-width%3A1px%3Bstroke-linecap%3Abutt%3Bstroke-linejoin%3Amiter%3Bstroke-opacity%3A1%22%0A%20%20%20%20%20%20%20d%3D%22M%20107.07617,0%20872.7718,1732.2537%202606.1936,0%20Z%22%0A%20%20%20%20%20%20%20id%3D%22path4616%22%0A%20%20%20%20%20%20%20inkscape%3Aconnector-curvature%3D%220%22%20%2F%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%0A%20%20%20%20%20inkscape%3Agroupmode%3D%22layer%22%0A%20%20%20%20%20id%3D%22layer8%22%0A%20%20%20%20%20inkscape%3Alabel%3D%22Layer%208%22%0A%20%20%20%20%20style%3D%22display%3Ainline%22%3E%0A%20%20%20%20%3Cpath%0A%20%20%20%20%20%20%20style%3D%22fill%3A%23000000%3Bfill-opacity%3A0.02745098%3Bstroke%3Anone%3Bstroke-width%3A1px%3Bstroke-linecap%3Abutt%3Bstroke-linejoin%3Amiter%3Bstroke-opacity%3A1%22%0A%20%20%20%20%20%20%20d%3D%22M%20309.10668,2304%20872.7718,1732.2537%202171.828,2304%20Z%22%0A%20%20%20%20%20%20%20id%3D%22path4631%22%0A%20%20%20%20%20%20%20inkscape%3Aconnector-curvature%3D%220%22%20%2F%3E%0A%20%20%3C%2Fg%3E%0A%3C%2Fsvg%3E%0A");
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#6f2162+0,ed9017+100 */
+	/*background: rgb(109,34,99); /* Old browsers 
+	background: radial-gradient(circle farthest-corner at 0% 100%,  rgba(109,34,99,1) 0%, rgba(109,34,99,1) 25%, rgba(194,70,46,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	background-position: center center; 
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.block-content {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	display: none;
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	z-index: 10;
+}
+/* Top panel */
+.panel {
+	width: 100%;
+	height: 23px;
+	line-height: 23px;
+	font-size: 14px;
+	cursor: default;
+	letter-spacing: 0.75px;
+	color: #fff;
+	background-color: #4d4c45;
+	background: -webkit-linear-gradient(#5a584f, #403f3a); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#5a584f, #403f3a); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#5a584f, #403f3a); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#5a584f, #403f3a); /* Standard syntax */
+	border-top: 1px solid #626055;
+	box-shadow: 0px 3px 8px 1px #222;
+}
+.panel-title-text {
+	float: left;
+	margin-left: 8px;
+}
+.panel-icon-set {
+	float: right;
+	height: 100%;
+	min-width: 10px;
+	margin-right: 8px;
+	letter-spacing: 0.55px;
+	/* Maybe word-spacing? */
+	color: #eee;
+}
+.panel-icon-set img {
+	height: 22px;
+	width: 22px;
+	margin-right: 7px;
+}
+.panel-icon-set .battery-icon {
+	width: 29px;
+}
+.wifi-icon {
+	position: relative;
+	top: -1px;
+}
+.clock {
+	display: inline-block;
+	position: relative;
+	top: -6px;
+	min-width: 64.141px;
+	color: #dfdbd2;
+	text-align: right;
+}
+/* Credits */
+#credits {
+	position: absolute;
+	z-index: 15;
+	top: 25%;
+	display: none;
+	max-width: 200px;
+}
+.credits-body {
+	min-height: 70px !important;
+}
+.credits-text {
+	margin: 0px;
+	margin-bottom: 5px;
+}
+/* Window box */
+.app-window {
+	top: 10%;
+	display: none;
+	z-index: 5;
+	max-width: 500px;
+	background-color: #fff;
+	border-radius: 5px 5px 0px 0px;
+	border-top: 1px solid #59574e;
+	box-shadow: 0px 0px 20px 1px #222;
+}
+/* Random quote app */
+#app {
+}
+/* Window box title */
+.window-title {
+	height: 26px;
+	line-height: 26px;
+	text-align: left;
+	/*cursor: default;*/
+	background-color: #4c4b45;
+	background: -webkit-linear-gradient(#59574f, #3f3e3a); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#59574f, #3f3e3a); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#59574f, #3f3e3a); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#59574f, #3f3e3a); /* Standard syntax */
+	border-radius: 5px 5px 0px 0px;
+	border-top: 1px solid #626055;
+	border-bottom: 1px solid #41403b;
+}
+.title-button {
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	border-radius: 50%;
+}
+.close-button {
+	margin-top: 4px;
+	margin-left: 7px;
+	background-color: #e55e30;
+	/* background: -webkit-linear-gradient(#d59a65, #d4521d); /* For Safari 5.1 to 6.0
+	background: -o-linear-gradient(#d59a65, #d4521d); /* For Opera 11.1 to 12.0
+	background: -moz-linear-gradient(#d59a65, #d4521d); /* For Firefox 3.6 to 15
+	background: linear-gradient(#d59a65, #d4521d); /* Standard syntax */
+	background-image: url(../img/close-button.jpg);
+}
+.close-button:hover {
+	background-color: #f27e59;
+	background-image: url(../img/close-button-hover.jpg);
+}
+.minimize-button {
+	margin-left: -1px;
+	background-color: #6d6c66;
+	/* background: -webkit-linear-gradient(#959595, #56544c); /* For Safari 5.1 to 6.0
+	background: -o-linear-gradient(#959595, #56544c); /* For Opera 11.1 to 12.0
+	background: -moz-linear-gradient(#959595, #56544c); /* For Firefox 3.6 to 15
+	background: linear-gradient(#959595, #56544c); /* Standard syntax */
+	background-image: url(../img/minimize-button.jpg);
+}
+.minimize-button:hover {
+	background-color: #c0c0c0;
+	background-image: url(../img/minimize-button-hover.jpg);
+}
+.title-text { /* Also panel title text */
+	display: inline-block;
+	font-size: 14px;
+	letter-spacing: 0.75px;
+	font-weight: 600;
+	color: #fff;
+	/* Text outline */
+	text-shadow:
+		-1px -1px 0 #37383c,  
+		1px -1px 0 #37383c,
+		-1px 1px 0 #37383c,
+		1px 1px 0 #37383c;
+}
+.window-title-text {
+	position: relative;
+	top: -2px;
+	margin-left: 9px;
+	/* Breaks draggable -> cursor: move
+	cursor: default; */
+}
+/* - Window box body */
+.window-body {
+	padding: 20px;
+	padding-left: 3%;
+	padding-right: 3%;
+	min-height: 150px;
+	font-size: 15px;
+	background-color: #fff;
+}
+.buttons {
+	text-align: center;
+	letter-spacing: 0.60px;
+	width: 100%;
+	position: absolute;
+	bottom: 10px;
+	left: 0px;
+}
+.button {
+	display: inline-block;
+	min-width: 60px;
+	padding: 4px 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+	text-decoration: none;
+	font-size: 14px;
+	cursor: default;
+	color: #4c4c4c;
+	background-color: #f9f8f8;
+	background: -webkit-linear-gradient(#fffefe, #f3f2f1); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#fffefe, #f3f2f1); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#fffefe, #f3f2f1); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#fffefe, #f3f2f1); /* Standard syntax */
+	border-radius: 4px;
+	border: 1px solid #b7b7b7;
+}
+
+.button:hover {
+	box-shadow: 0px 1px 1px 1px #e1e1e1;
+	border-bottom: 1px solid #aaa;
+	border-left: 1px solid #b2b2b2;
+	border-right: 1px solid #b2b2b2;
+}
+
+.button-disabled {
+	border: 1px solid #c0c0c0;
+	color: #777;
+}
+
+.button-disabled:hover {
+	border: 1px solid #c0c0c0 !important;
+	box-shadow: none !important;
+}

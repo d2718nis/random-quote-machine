@@ -1,0 +1,38 @@
+.content {
+	text-align: left;
+}
+.icon-container {
+	display: inline-block;
+	float: left;
+	width: 12%;
+}
+.icon-container img {
+	display: block;
+	margin: auto;
+	width: 48px;
+	height: 48px;
+}
+.content-container {
+	display: inline-block;
+	width: 88%;
+	float: right;
+}
+.quote {
+	/* This is estimate value, calculated is: 050402*/
+	padding-left: 15px;
+	margin: 0px;
+	margin-bottom: 5px;
+}
+.author {
+	padding-left: 15px;
+	color: #797f8b;
+	margin-top: 5px;
+}
+.noselect {
+	-webkit-touch-callout: none; /* iOS Safari */
+	-webkit-user-select: none; /* Safari */
+	-khtml-user-select: none; /* Konqueror HTML */
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* Internet Explorer/Edge */
+	user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */
+}
