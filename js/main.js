@@ -73,6 +73,7 @@ function gotoJson() {
 				return;
 			}
 			// Quote is too long, repeat
+			counter++;
 			gotoJson();
 		}
 	});
