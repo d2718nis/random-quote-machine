@@ -94,9 +94,17 @@ body,
 .credits-body {
 	min-height: 70px !important;
 }
-.credits-text {
-	margin: 0px;
+.credits-link {
 	margin-bottom: 5px;
+	color: #797f8b;
+	text-decoration: none;
+	-moz-transition: color 0.5s;
+	-o-transition: color 0.5s;
+	-webkit-transition: color 0.5s;
+	transition: color 0.5s;
+}
+.credits-link:hover {
+	color: #454442;
 }
 /* Window box */
 .app-window {
