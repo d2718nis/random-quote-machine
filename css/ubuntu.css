@@ -3,8 +3,8 @@ body,
 .background {
 	width: 100%;
 	height: 100%;
-	margin: 0px;
-	padding: 0px;
+	margin: 0;
+	padding: 0;
 	color: #454442;
 	font-family: "Ubuntu", sans-serif;
 }
@@ -16,24 +16,23 @@ body,
 	/* SVG background-image made by https://github.com/killfactory */
 	background-image: url(../img/background.svg);
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#6f2162+0,ed9017+100 */
-	/*background: rgb(109,34,99); /* Old browsers 
-	background: radial-gradient(circle farthest-corner at 0% 100%,  rgba(109,34,99,1) 0%, rgba(109,34,99,1) 25%, rgba(194,70,46,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	/* background: radial-gradient(circle farthest-corner at 0% 100%,  rgba(109,34,99,1) 0%, rgba(109,34,99,1) 25%, rgba(194,70,46,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	background-position: center center; 
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 .block-content {
 	position: absolute;
-	top: 0px;
-	left: 0px;
+	top: 0;
+	left: 0;
 	display: none;
 	width: 100%;
 	height: 100%;
-	margin: 0px;
-	padding: 0px;
+	margin: 0;
+	padding: 0;
 	z-index: 10;
 }
-/* Top panel */
+/* ======== Top panel ======== */
 .panel {
 	width: 100%;
 	height: 23px;
@@ -43,12 +42,13 @@ body,
 	letter-spacing: 0.75px;
 	color: #fff;
 	background-color: #4d4c45;
-	background: -webkit-linear-gradient(#5a584f, #403f3a); /* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient(#5a584f, #403f3a); /* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(#5a584f, #403f3a); /* For Firefox 3.6 to 15 */
-	background: linear-gradient(#5a584f, #403f3a); /* Standard syntax */
+	background: -moz-linear-gradient(#5a584f, #403f3a);
+	background: -o-linear-gradient(#5a584f, #403f3a);
+	background: -webkit-linear-gradient(#5a584f, #403f3a);
+	background: -webkit-gradient(#5a584f, #403f3a);
+	background: linear-gradient(#5a584f, #403f3a);
 	border-top: 1px solid #626055;
-	box-shadow: 0px 3px 8px 1px #222;
+	box-shadow: 0 3px 8px 1px #222;
 }
 .panel-title-text {
 	float: left;
@@ -83,16 +83,18 @@ body,
 	color: #dfdbd2;
 	text-align: right;
 }
-/* Credits */
+/* ======== Credits ======== */
 #credits {
-	position: absolute;
 	z-index: 15;
-	top: 25%;
+}
+.credits {
 	display: none;
+	position: absolute;
+	top: 25%;
 	max-width: 200px;
 }
-.credits-body {
-	min-height: 70px !important;
+.credits .credits-body {
+	min-height: 70px;
 }
 .credits-link {
 	margin-bottom: 5px;
@@ -106,32 +108,31 @@ body,
 .credits-link:hover {
 	color: #454442;
 }
-/* Window box */
+/* ======== Window box ======== */
 .app-window {
 	top: 10%;
 	display: none;
 	z-index: 5;
 	max-width: 500px;
 	background-color: #fff;
-	border-radius: 5px 5px 0px 0px;
+	border-radius: 5px 5px 0 0;
 	border-top: 1px solid #59574e;
-	box-shadow: 0px 0px 20px 1px #222;
+	box-shadow: 0 0 20px 1px #222;
 }
-/* Random quote app */
-#app {
-}
-/* Window box title */
+/* ======== Random quote app ======== */
+/* ======== Window box title ======== */
 .window-title {
 	height: 26px;
 	line-height: 26px;
 	text-align: left;
-	/*cursor: default;*/
+	/* cursor: default; */
 	background-color: #4c4b45;
-	background: -webkit-linear-gradient(#59574f, #3f3e3a); /* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient(#59574f, #3f3e3a); /* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(#59574f, #3f3e3a); /* For Firefox 3.6 to 15 */
-	background: linear-gradient(#59574f, #3f3e3a); /* Standard syntax */
-	border-radius: 5px 5px 0px 0px;
+	background: -moz-linear-gradient(#59574f, #3f3e3a);
+	background: -o-linear-gradient(#59574f, #3f3e3a);
+	background: -webkit-gradient(#59574f, #3f3e3a);
+	background: -webkit-linear-gradient(#59574f, #3f3e3a);
+	background: linear-gradient(#59574f, #3f3e3a);
+	border-radius: 5px 5px 0 0;
 	border-top: 1px solid #626055;
 	border-bottom: 1px solid #41403b;
 }
@@ -145,10 +146,13 @@ body,
 	margin-top: 4px;
 	margin-left: 7px;
 	background-color: #e55e30;
-	/* background: -webkit-linear-gradient(#d59a65, #d4521d); /* For Safari 5.1 to 6.0
-	background: -o-linear-gradient(#d59a65, #d4521d); /* For Opera 11.1 to 12.0
-	background: -moz-linear-gradient(#d59a65, #d4521d); /* For Firefox 3.6 to 15
-	background: linear-gradient(#d59a65, #d4521d); /* Standard syntax */
+	/*
+	background: -moz-linear-gradient(#d59a65, #d4521d);
+	background: -o-linear-gradient(#d59a65, #d4521d);
+	background: -webkit-gradient(#d59a65, #d4521d);
+	background: -webkit-linear-gradient(#d59a65, #d4521d);
+	background: linear-gradient(#d59a65, #d4521d);
+	*/
 	background-image: url(../img/close-button.jpg);
 }
 .close-button:hover {
@@ -158,10 +162,13 @@ body,
 .minimize-button {
 	margin-left: -1px;
 	background-color: #6d6c66;
-	/* background: -webkit-linear-gradient(#959595, #56544c); /* For Safari 5.1 to 6.0
-	background: -o-linear-gradient(#959595, #56544c); /* For Opera 11.1 to 12.0
-	background: -moz-linear-gradient(#959595, #56544c); /* For Firefox 3.6 to 15
-	background: linear-gradient(#959595, #56544c); /* Standard syntax */
+	/*
+	background: -moz-linear-gradient(#959595, #56544c);
+	background: -o-linear-gradient(#959595, #56544c);
+	background: -webkit-gradient(#959595, #56544c);
+	background: -webkit-linear-gradient(#959595, #56544c);
+	background: linear-gradient(#959595, #56544c);
+	*/
 	background-image: url(../img/minimize-button.jpg);
 }
 .minimize-button:hover {
@@ -188,7 +195,7 @@ body,
 	/* Breaks draggable -> cursor: move
 	cursor: default; */
 }
-/* - Window box body */
+/* ======== Window box body ======== */
 .window-body {
 	padding: 20px;
 	padding-left: 3%;
@@ -203,7 +210,7 @@ body,
 	width: 100%;
 	position: absolute;
 	bottom: 10px;
-	left: 0px;
+	left: 0;
 }
 .button {
 	display: inline-block;
@@ -216,27 +223,25 @@ body,
 	cursor: default;
 	color: #4c4c4c;
 	background-color: #f9f8f8;
-	background: -webkit-linear-gradient(#fffefe, #f3f2f1); /* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient(#fffefe, #f3f2f1); /* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(#fffefe, #f3f2f1); /* For Firefox 3.6 to 15 */
-	background: linear-gradient(#fffefe, #f3f2f1); /* Standard syntax */
+	background: -moz-linear-gradient(#fffefe, #f3f2f1);
+	background: -o-linear-gradient(#fffefe, #f3f2f1);
+	background: -webkit-gradient(#fffefe, #f3f2f1);
+	background: -webkit-linear-gradient(#fffefe, #f3f2f1);
+	background: linear-gradient(#fffefe, #f3f2f1);
 	border-radius: 4px;
 	border: 1px solid #b7b7b7;
 }
-
 .button:hover {
-	box-shadow: 0px 1px 1px 1px #e1e1e1;
+	box-shadow: 0 1px 1px 1px #e1e1e1;
 	border-bottom: 1px solid #aaa;
 	border-left: 1px solid #b2b2b2;
 	border-right: 1px solid #b2b2b2;
 }
-
 .button-disabled {
 	border: 1px solid #c0c0c0;
 	color: #777;
 }
-
 .button-disabled:hover {
-	border: 1px solid #c0c0c0 !important;
-	box-shadow: none !important;
+	border: 1px solid #c0c0c0;
+	box-shadow: none;
 }

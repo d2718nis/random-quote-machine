@@ -2,7 +2,6 @@
 	text-align: left;
 }
 .icon-container {
-	display: inline-block;
 	float: left;
 	width: 12%;
 }
@@ -13,14 +12,12 @@
 	height: 48px;
 }
 .content-container {
-	display: inline-block;
 	width: 88%;
 	float: right;
 }
 .quote {
-	/* This is estimate value, calculated is: 050402*/
 	padding-left: 15px;
-	margin: 0px;
+	margin: 0;
 	margin-bottom: 5px;
 }
 .author {
@@ -29,10 +26,10 @@
 	margin-top: 5px;
 }
 .noselect {
-	-webkit-touch-callout: none; /* iOS Safari */
-	-webkit-user-select: none; /* Safari */
-	-khtml-user-select: none; /* Konqueror HTML */
-	-moz-user-select: none; /* Firefox */
-	-ms-user-select: none; /* Internet Explorer/Edge */
-	user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
 }
