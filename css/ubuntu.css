@@ -6,7 +6,7 @@ body,
 	margin: 0;
 	padding: 0;
 	color: #454442;
-	font-family: "Ubuntu", sans-serif;
+	font-family: 'Ubuntu', sans-serif;
 }
 .background {
 	/* Generated middle color */
@@ -32,7 +32,7 @@ body,
 	padding: 0;
 	z-index: 10;
 }
-/* ======== Top panel ======== */
+/* ========== Top panel ========== */
 .panel {
 	width: 100%;
 	height: 23px;
@@ -83,7 +83,7 @@ body,
 	color: #dfdbd2;
 	text-align: right;
 }
-/* ======== Credits ======== */
+/* ========== Credits ========== */
 #credits {
 	z-index: 15;
 }
@@ -108,7 +108,7 @@ body,
 .credits-link:hover {
 	color: #454442;
 }
-/* ======== Window box ======== */
+/* ========== Window box ========== */
 .app-window {
 	top: 10%;
 	display: none;
@@ -119,8 +119,8 @@ body,
 	border-top: 1px solid #59574e;
 	box-shadow: 0 0 20px 1px #222;
 }
-/* ======== Random quote app ======== */
-/* ======== Window box title ======== */
+/* ========== Random quote app ========== */
+/* ========== Window box title ========== */
 .window-title {
 	height: 26px;
 	line-height: 26px;
@@ -195,7 +195,7 @@ body,
 	/* Breaks draggable -> cursor: move
 	cursor: default; */
 }
-/* ======== Window box body ======== */
+/* ========== Window box body ========== */
 .window-body {
 	padding: 20px;
 	padding-left: 3%;
