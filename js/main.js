@@ -51,8 +51,7 @@ function startJson() {
 function gotoJson() {
 	// Receive 10 objects at the one time
 	// TODO: now it's just one
-	var getQuote = $.getJSON('https://jsonp.afeld.me/?callback=?&url=\
-		https%3A%2F%2Fquotesondesign.com%2Fwp-json%2Fposts%3Ffilter%5Borderby%5D%3Drand%26filter%5Bposts_per_page%5D%3D1')
+	var getQuote = $.getJSON('https://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1&_jsonp=?');
 	getQuote.then(function(json) {
 		// Get pure text without tags and spaces etc.
 		var quote = trimHtmlTags(json[0].content).replace(/^\s+|\s+$/g, '');
