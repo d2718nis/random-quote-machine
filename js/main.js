@@ -68,7 +68,7 @@ function gotoJson() {
 		} else {
 			// Give up after 30 tries to prevent hanging
 			if (counter > 30) {
-				$('.quote').html(`Can't load proper quote, please try again later.`);
+				$('.quote').html('An error occured. Please try again later.');
 				$('.author').html('');
 				return;
 			}
@@ -78,7 +78,8 @@ function gotoJson() {
 		}
 	});
 	getQuote.catch(function(err) {
-		alert('getQuote: ' + JSON.stringify(err));
+		console.log('getQuote: ' + JSON.stringify(err));
+		$('.quote').html('An error occured. Please try again later.');
 	})
 }
 
@@ -108,7 +109,7 @@ $(document).ready(function() {
 		// Disable twitter button
 		$('.button-shr').removeAttr('href');
 		$('.button-shr').addClass('button-disabled');
-		$('.quote').html('Loading quote...<br><br>');
+		$('.quote').html('Loading quote...');
 		$('.author').html('<br>');
 		startJson();
 	});
