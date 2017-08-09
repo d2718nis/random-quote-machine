@@ -1,4 +1,4 @@
-html, 
+html,
 body,
 .background {
 	width: 100%;
@@ -15,9 +15,10 @@ body,
 
 	/* SVG background-image made by https://github.com/killfactory */
 	background-image: url(../img/background.svg);
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#6f2162+0,ed9017+100 */
-	/* background: radial-gradient(circle farthest-corner at 0% 100%,  rgba(109,34,99,1) 0%, rgba(109,34,99,1) 25%, rgba(194,70,46,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	background-position: center center; 
+	/* background: radial-gradient(circle farthest-corner at 0% 100%,
+	rgba(109,34,99,1) 0%, rgba(109,34,99,1) 25%, rgba(194,70,46,1) 100%);
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -183,7 +184,7 @@ body,
 	color: #fff;
 	/* Text outline */
 	text-shadow:
-		-1px -1px 0 #37383c,  
+		-1px -1px 0 #37383c,
 		1px -1px 0 #37383c,
 		-1px 1px 0 #37383c,
 		1px 1px 0 #37383c;
